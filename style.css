@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem 0;
+}
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 1s ease-out;
+}
+
+.slide {
+    min-width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333; /* Темно-сірий фон */
+    color: white; /* Білий текст */
+    text-align: center; /* Вирівнювання тексту в футері */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#arbeiten ul {
+    list-style-type: none; /* Видалити точки в списку */
+    padding: 0; /* Прибрати зайві відступи */
+    text-align: center; /* Вирівнювання тексту по центру */
+}
+
+#arbeiten li {
+    font-size: 1rem; /* Розмір тексту */
+    margin: 0.5rem 0; /* Відступи між рядками */
+    text-align: center; /* Вирівнювання тексту кожного пункту по центру */
+}
+header h1 {
+    font-family: 'Tektur', sans-serif;
+  }
+  
